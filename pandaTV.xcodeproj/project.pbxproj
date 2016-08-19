@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB0A19C1D59AE7900184D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A19B1D59AE7900184D8C /* main.m */; };
+		FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A19E1D59AE7900184D8C /* AppDelegate.m */; };
+		FAB0A1A51D59AE7900184D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0A1A31D59AE7900184D8C /* Main.storyboard */; };
+		FAB0A1A71D59AE7900184D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB0A1A61D59AE7900184D8C /* Assets.xcassets */; };
+		FAB0A1AA1D59AE7900184D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0A1A81D59AE7900184D8C /* LaunchScreen.storyboard */; };
+		FAB0A1B51D59AE7900184D8C /* pandaTVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1B41D59AE7900184D8C /* pandaTVTests.m */; };
+		FAB0A1C01D59AE7900184D8C /* pandaTVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1BF1D59AE7900184D8C /* pandaTVUITests.m */; };
+		FAB0A1CF1D59B19400184D8C /* FistPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1CE1D59B19400184D8C /* FistPageViewController.m */; };
+		FAB0A1D21D59B1F500184D8C /* GimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1D11D59B1F500184D8C /* GimeViewController.m */; };
+		FAB0A1D51D59B22000184D8C /* AmuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1D41D59B22000184D8C /* AmuseViewController.m */; };
+		FAB0A1D81D59B24200184D8C /* GoddessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1D71D59B24200184D8C /* GoddessViewController.m */; };
+		FAB0A1DB1D59B2E900184D8C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1DA1D59B2E900184D8C /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB0A1B11D59AE7900184D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB0A18F1D59AE7900184D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB0A1961D59AE7900184D8C;
+			remoteInfo = pandaTV;
+		};
+		FAB0A1BC1D59AE7900184D8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB0A18F1D59AE7900184D8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB0A1961D59AE7900184D8C;
+			remoteInfo = pandaTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAB0A1971D59AE7900184D8C /* pandaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pandaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB0A19B1D59AE7900184D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAB0A19D1D59AE7900184D8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB0A19E1D59AE7900184D8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAB0A1A41D59AE7900184D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB0A1A61D59AE7900184D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB0A1A91D59AE7900184D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB0A1AB1D59AE7900184D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB0A1B01D59AE7900184D8C /* pandaTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pandaTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB0A1B41D59AE7900184D8C /* pandaTVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pandaTVTests.m; sourceTree = "<group>"; };
+		FAB0A1B61D59AE7900184D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB0A1BB1D59AE7900184D8C /* pandaTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pandaTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB0A1BF1D59AE7900184D8C /* pandaTVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pandaTVUITests.m; sourceTree = "<group>"; };
+		FAB0A1C11D59AE7900184D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB0A1CD1D59B19400184D8C /* FistPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FistPageViewController.h; sourceTree = "<group>"; };
+		FAB0A1CE1D59B19400184D8C /* FistPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FistPageViewController.m; sourceTree = "<group>"; };
+		FAB0A1D01D59B1F500184D8C /* GimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GimeViewController.h; sourceTree = "<group>"; };
+		FAB0A1D11D59B1F500184D8C /* GimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GimeViewController.m; sourceTree = "<group>"; };
+		FAB0A1D31D59B22000184D8C /* AmuseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmuseViewController.h; sourceTree = "<group>"; };
+		FAB0A1D41D59B22000184D8C /* AmuseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmuseViewController.m; sourceTree = "<group>"; };
+		FAB0A1D61D59B24200184D8C /* GoddessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoddessViewController.h; sourceTree = "<group>"; };
+		FAB0A1D71D59B24200184D8C /* GoddessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoddessViewController.m; sourceTree = "<group>"; };
+		FAB0A1D91D59B2E900184D8C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FAB0A1DA1D59B2E900184D8C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB0A1941D59AE7900184D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB0A1AD1D59AE7900184D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB0A1B81D59AE7900184D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB0A18E1D59AE7900184D8C = {
+			isa = PBXGroup;
+			children = (
+				FAB0A1991D59AE7900184D8C /* pandaTV */,
+				FAB0A1B31D59AE7900184D8C /* pandaTVTests */,
+				FAB0A1BE1D59AE7900184D8C /* pandaTVUITests */,
+				FAB0A1981D59AE7900184D8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB0A1981D59AE7900184D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A1971D59AE7900184D8C /* pandaTV.app */,
+				FAB0A1B01D59AE7900184D8C /* pandaTVTests.xctest */,
+				FAB0A1BB1D59AE7900184D8C /* pandaTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB0A1991D59AE7900184D8C /* pandaTV */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A19D1D59AE7900184D8C /* AppDelegate.h */,
+				FAB0A19E1D59AE7900184D8C /* AppDelegate.m */,
+				FAB0A1CD1D59B19400184D8C /* FistPageViewController.h */,
+				FAB0A1CE1D59B19400184D8C /* FistPageViewController.m */,
+				FAB0A1D01D59B1F500184D8C /* GimeViewController.h */,
+				FAB0A1D11D59B1F500184D8C /* GimeViewController.m */,
+				FAB0A1D31D59B22000184D8C /* AmuseViewController.h */,
+				FAB0A1D41D59B22000184D8C /* AmuseViewController.m */,
+				FAB0A1D61D59B24200184D8C /* GoddessViewController.h */,
+				FAB0A1D71D59B24200184D8C /* GoddessViewController.m */,
+				FAB0A1D91D59B2E900184D8C /* MainViewController.h */,
+				FAB0A1DA1D59B2E900184D8C /* MainViewController.m */,
+				FAB0A1A31D59AE7900184D8C /* Main.storyboard */,
+				FAB0A1A61D59AE7900184D8C /* Assets.xcassets */,
+				FAB0A1A81D59AE7900184D8C /* LaunchScreen.storyboard */,
+				FAB0A1AB1D59AE7900184D8C /* Info.plist */,
+				FAB0A19A1D59AE7900184D8C /* Supporting Files */,
+			);
+			path = pandaTV;
+			sourceTree = "<group>";
+		};
+		FAB0A19A1D59AE7900184D8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A19B1D59AE7900184D8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAB0A1B31D59AE7900184D8C /* pandaTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A1B41D59AE7900184D8C /* pandaTVTests.m */,
+				FAB0A1B61D59AE7900184D8C /* Info.plist */,
+			);
+			path = pandaTVTests;
+			sourceTree = "<group>";
+		};
+		FAB0A1BE1D59AE7900184D8C /* pandaTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A1BF1D59AE7900184D8C /* pandaTVUITests.m */,
+				FAB0A1C11D59AE7900184D8C /* Info.plist */,
+			);
+			path = pandaTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB0A1961D59AE7900184D8C /* pandaTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB0A1C41D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTV" */;
+			buildPhases = (
+				FAB0A1931D59AE7900184D8C /* Sources */,
+				FAB0A1941D59AE7900184D8C /* Frameworks */,
+				FAB0A1951D59AE7900184D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pandaTV;
+			productName = pandaTV;
+			productReference = FAB0A1971D59AE7900184D8C /* pandaTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAB0A1AF1D59AE7900184D8C /* pandaTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB0A1C71D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTVTests" */;
+			buildPhases = (
+				FAB0A1AC1D59AE7900184D8C /* Sources */,
+				FAB0A1AD1D59AE7900184D8C /* Frameworks */,
+				FAB0A1AE1D59AE7900184D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB0A1B21D59AE7900184D8C /* PBXTargetDependency */,
+			);
+			name = pandaTVTests;
+			productName = pandaTVTests;
+			productReference = FAB0A1B01D59AE7900184D8C /* pandaTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAB0A1BA1D59AE7900184D8C /* pandaTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB0A1CA1D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTVUITests" */;
+			buildPhases = (
+				FAB0A1B71D59AE7900184D8C /* Sources */,
+				FAB0A1B81D59AE7900184D8C /* Frameworks */,
+				FAB0A1B91D59AE7900184D8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB0A1BD1D59AE7900184D8C /* PBXTargetDependency */,
+			);
+			name = pandaTVUITests;
+			productName = pandaTVUITests;
+			productReference = FAB0A1BB1D59AE7900184D8C /* pandaTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB0A18F1D59AE7900184D8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shenzhenshihua;
+				TargetAttributes = {
+					FAB0A1961D59AE7900184D8C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FAB0A1AF1D59AE7900184D8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FAB0A1961D59AE7900184D8C;
+					};
+					FAB0A1BA1D59AE7900184D8C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FAB0A1961D59AE7900184D8C;
+					};
+				};
+			};
+			buildConfigurationList = FAB0A1921D59AE7900184D8C /* Build configuration list for PBXProject "pandaTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB0A18E1D59AE7900184D8C;
+			productRefGroup = FAB0A1981D59AE7900184D8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB0A1961D59AE7900184D8C /* pandaTV */,
+				FAB0A1AF1D59AE7900184D8C /* pandaTVTests */,
+				FAB0A1BA1D59AE7900184D8C /* pandaTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB0A1951D59AE7900184D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0A1AA1D59AE7900184D8C /* LaunchScreen.storyboard in Resources */,
+				FAB0A1A71D59AE7900184D8C /* Assets.xcassets in Resources */,
+				FAB0A1A51D59AE7900184D8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB0A1AE1D59AE7900184D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB0A1B91D59AE7900184D8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB0A1931D59AE7900184D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0A1CF1D59B19400184D8C /* FistPageViewController.m in Sources */,
+				FAB0A1D21D59B1F500184D8C /* GimeViewController.m in Sources */,
+				FAB0A1DB1D59B2E900184D8C /* MainViewController.m in Sources */,
+				FAB0A1D81D59B24200184D8C /* GoddessViewController.m in Sources */,
+				FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */,
+				FAB0A1D51D59B22000184D8C /* AmuseViewController.m in Sources */,
+				FAB0A19C1D59AE7900184D8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB0A1AC1D59AE7900184D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0A1B51D59AE7900184D8C /* pandaTVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB0A1B71D59AE7900184D8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB0A1C01D59AE7900184D8C /* pandaTVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB0A1B21D59AE7900184D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB0A1961D59AE7900184D8C /* pandaTV */;
+			targetProxy = FAB0A1B11D59AE7900184D8C /* PBXContainerItemProxy */;
+		};
+		FAB0A1BD1D59AE7900184D8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB0A1961D59AE7900184D8C /* pandaTV */;
+			targetProxy = FAB0A1BC1D59AE7900184D8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAB0A1A31D59AE7900184D8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB0A1A41D59AE7900184D8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB0A1A81D59AE7900184D8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB0A1A91D59AE7900184D8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB0A1C21D59AE7900184D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB0A1C31D59AE7900184D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB0A1C51D59AE7900184D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pandaTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAB0A1C61D59AE7900184D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pandaTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAB0A1C81D59AE7900184D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pandaTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pandaTV.app/pandaTV";
+			};
+			name = Debug;
+		};
+		FAB0A1C91D59AE7900184D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pandaTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pandaTV.app/pandaTV";
+			};
+			name = Release;
+		};
+		FAB0A1CB1D59AE7900184D8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pandaTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pandaTV;
+			};
+			name = Debug;
+		};
+		FAB0A1CC1D59AE7900184D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = pandaTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pandaTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB0A1921D59AE7900184D8C /* Build configuration list for PBXProject "pandaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0A1C21D59AE7900184D8C /* Debug */,
+				FAB0A1C31D59AE7900184D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB0A1C41D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0A1C51D59AE7900184D8C /* Debug */,
+				FAB0A1C61D59AE7900184D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB0A1C71D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0A1C81D59AE7900184D8C /* Debug */,
+				FAB0A1C91D59AE7900184D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAB0A1CA1D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB0A1CB1D59AE7900184D8C /* Debug */,
+				FAB0A1CC1D59AE7900184D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB0A18F1D59AE7900184D8C /* Project object */;
+}
