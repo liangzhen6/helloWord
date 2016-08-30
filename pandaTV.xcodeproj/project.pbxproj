@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA41ADFA1D6AEFC2000E1E5E /* FristPageHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */; };
 		FAB0A19C1D59AE7900184D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A19B1D59AE7900184D8C /* main.m */; };
 		FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A19E1D59AE7900184D8C /* AppDelegate.m */; };
 		FAB0A1A51D59AE7900184D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0A1A31D59AE7900184D8C /* Main.storyboard */; };
@@ -39,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA41ADF81D6AEFC2000E1E5E /* FristPageHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristPageHeadView.h; sourceTree = "<group>"; };
+		FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristPageHeadView.m; sourceTree = "<group>"; };
+		FAA0643B1D6D46F4004D85AF /* pandaPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pandaPch.pch; sourceTree = "<group>"; };
 		FAB0A1971D59AE7900184D8C /* pandaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pandaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB0A19B1D59AE7900184D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAB0A19D1D59AE7900184D8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +94,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA41ADF11D6AEA6B000E1E5E /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A1CD1D59B19400184D8C /* FistPageViewController.h */,
+				FAB0A1CE1D59B19400184D8C /* FistPageViewController.m */,
+				FA41ADF61D6AEF79000E1E5E /* View */,
+				FA41ADF71D6AEF7F000E1E5E /* Model */,
+			);
+			name = FirstPage;
+			sourceTree = "<group>";
+		};
+		FA41ADF21D6AEA84000E1E5E /* Gime */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A1D01D59B1F500184D8C /* GimeViewController.h */,
+				FAB0A1D11D59B1F500184D8C /* GimeViewController.m */,
+			);
+			name = Gime;
+			sourceTree = "<group>";
+		};
+		FA41ADF31D6AEA8E000E1E5E /* Goddess */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A1D61D59B24200184D8C /* GoddessViewController.h */,
+				FAB0A1D71D59B24200184D8C /* GoddessViewController.m */,
+			);
+			name = Goddess;
+			sourceTree = "<group>";
+		};
+		FA41ADF41D6AEA98000E1E5E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A1D91D59B2E900184D8C /* MainViewController.h */,
+				FAB0A1DA1D59B2E900184D8C /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		FA41ADF51D6AEAB8000E1E5E /* Amuse */ = {
+			isa = PBXGroup;
+			children = (
+				FAB0A1D31D59B22000184D8C /* AmuseViewController.h */,
+				FAB0A1D41D59B22000184D8C /* AmuseViewController.m */,
+			);
+			name = Amuse;
+			sourceTree = "<group>";
+		};
+		FA41ADF61D6AEF79000E1E5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA41ADF81D6AEFC2000E1E5E /* FristPageHeadView.h */,
+				FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FA41ADF71D6AEF7F000E1E5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		FAB0A18E1D59AE7900184D8C = {
 			isa = PBXGroup;
 			children = (
@@ -115,16 +182,11 @@
 			children = (
 				FAB0A19D1D59AE7900184D8C /* AppDelegate.h */,
 				FAB0A19E1D59AE7900184D8C /* AppDelegate.m */,
-				FAB0A1CD1D59B19400184D8C /* FistPageViewController.h */,
-				FAB0A1CE1D59B19400184D8C /* FistPageViewController.m */,
-				FAB0A1D01D59B1F500184D8C /* GimeViewController.h */,
-				FAB0A1D11D59B1F500184D8C /* GimeViewController.m */,
-				FAB0A1D31D59B22000184D8C /* AmuseViewController.h */,
-				FAB0A1D41D59B22000184D8C /* AmuseViewController.m */,
-				FAB0A1D61D59B24200184D8C /* GoddessViewController.h */,
-				FAB0A1D71D59B24200184D8C /* GoddessViewController.m */,
-				FAB0A1D91D59B2E900184D8C /* MainViewController.h */,
-				FAB0A1DA1D59B2E900184D8C /* MainViewController.m */,
+				FA41ADF11D6AEA6B000E1E5E /* FirstPage */,
+				FA41ADF21D6AEA84000E1E5E /* Gime */,
+				FA41ADF51D6AEAB8000E1E5E /* Amuse */,
+				FA41ADF31D6AEA8E000E1E5E /* Goddess */,
+				FA41ADF41D6AEA98000E1E5E /* Main */,
 				FAB0A1A31D59AE7900184D8C /* Main.storyboard */,
 				FAB0A1A61D59AE7900184D8C /* Assets.xcassets */,
 				FAB0A1A81D59AE7900184D8C /* LaunchScreen.storyboard */,
@@ -138,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB0A19B1D59AE7900184D8C /* main.m */,
+				FAA0643B1D6D46F4004D85AF /* pandaPch.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -290,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA41ADFA1D6AEFC2000E1E5E /* FristPageHeadView.m in Sources */,
 				FAB0A1CF1D59B19400184D8C /* FistPageViewController.m in Sources */,
 				FAB0A1D21D59B1F500184D8C /* GimeViewController.m in Sources */,
 				FAB0A1DB1D59B2E900184D8C /* MainViewController.m in Sources */,
@@ -439,6 +503,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/pandaTV/pandaPch.pch";
 				INFOPLIST_FILE = pandaTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTV;
@@ -450,6 +515,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/pandaTV/pandaPch.pch";
 				INFOPLIST_FILE = pandaTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTV;
@@ -522,6 +588,7 @@
 				FAB0A1C61D59AE7900184D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB0A1C71D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTVTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +597,7 @@
 				FAB0A1C91D59AE7900184D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB0A1CA1D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTVUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +606,7 @@
 				FAB0A1CC1D59AE7900184D8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
