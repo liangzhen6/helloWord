@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA41ADFA1D6AEFC2000E1E5E /* FristPageHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */; };
+		FA848B801DED9A4E007E9F8C /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B7F1DED9A4E007E9F8C /* IJKMediaFramework.framework */; };
 		FAB0A19C1D59AE7900184D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A19B1D59AE7900184D8C /* main.m */; };
 		FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A19E1D59AE7900184D8C /* AppDelegate.m */; };
 		FAB0A1A51D59AE7900184D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0A1A31D59AE7900184D8C /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		FA41ADF81D6AEFC2000E1E5E /* FristPageHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristPageHeadView.h; sourceTree = "<group>"; };
 		FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristPageHeadView.m; sourceTree = "<group>"; };
+		FA848B7F1DED9A4E007E9F8C /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = ../../../Desktop/zb/IJKMediaFramework.framework; sourceTree = "<group>"; };
 		FAA0643B1D6D46F4004D85AF /* pandaPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pandaPch.pch; sourceTree = "<group>"; };
 		FAB0A1971D59AE7900184D8C /* pandaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pandaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB0A19B1D59AE7900184D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA848B801DED9A4E007E9F8C /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +160,14 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		FA848B7E1DED9A4E007E9F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA848B7F1DED9A4E007E9F8C /* IJKMediaFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAB0A18E1D59AE7900184D8C = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +175,7 @@
 				FAB0A1B31D59AE7900184D8C /* pandaTVTests */,
 				FAB0A1BE1D59AE7900184D8C /* pandaTVUITests */,
 				FAB0A1981D59AE7900184D8C /* Products */,
+				FA848B7E1DED9A4E007E9F8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -290,6 +302,7 @@
 				TargetAttributes = {
 					FAB0A1961D59AE7900184D8C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = G4E6298X77;
 					};
 					FAB0A1AF1D59AE7900184D8C = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -503,8 +516,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4E6298X77;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/pandaTV/pandaPch.pch";
 				INFOPLIST_FILE = pandaTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,8 +530,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4E6298X77;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/pandaTV/pandaPch.pch";
 				INFOPLIST_FILE = pandaTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SH.pandaTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
