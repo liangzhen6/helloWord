@@ -7,7 +7,7 @@
 //
 
 #import "GoddessViewController.h"
-
+#import <IJKMediaFramework/IJKMediaFramework.h>
 @interface GoddessViewController ()
 
 @end
