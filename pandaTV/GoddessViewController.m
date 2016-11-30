@@ -7,7 +7,7 @@
 //
 
 #import "GoddessViewController.h"
-#import <IJKMediaFramework/IJKMediaFramework.h>
+#import "LiveRoomViewController.h"
 @interface GoddessViewController ()
 
 @end
@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    LiveRoomViewController *lrVC = [[LiveRoomViewController alloc] init];
+    [self.navigationController pushViewController:lrVC animated:YES];
+
 }
 
 - (void)didReceiveMemoryWarning {

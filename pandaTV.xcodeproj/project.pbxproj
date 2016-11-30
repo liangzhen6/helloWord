@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3255451DEED38A006E15B4 /* LiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */; };
 		FA41ADFA1D6AEFC2000E1E5E /* FristPageHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */; };
 		FA848B821DED9B0C007E9F8C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B811DED9B0C007E9F8C /* libz.tbd */; };
 		FA848B841DED9B1C007E9F8C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B831DED9B1C007E9F8C /* libbz2.tbd */; };
@@ -54,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA3255431DEED38A006E15B4 /* LiveRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveRoomViewController.h; sourceTree = "<group>"; };
+		FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRoomViewController.m; sourceTree = "<group>"; };
 		FA41ADF81D6AEFC2000E1E5E /* FristPageHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristPageHeadView.h; sourceTree = "<group>"; };
 		FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristPageHeadView.m; sourceTree = "<group>"; };
 		FA848B811DED9B0C007E9F8C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -136,6 +139,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3255421DEED30D006E15B4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				FA3255431DEED38A006E15B4 /* LiveRoomViewController.h */,
+				FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
 		FA41ADF11D6AEA6B000E1E5E /* FirstPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,6 +263,7 @@
 				FA41ADF51D6AEAB8000E1E5E /* Amuse */,
 				FA41ADF31D6AEA8E000E1E5E /* Goddess */,
 				FA41ADF41D6AEA98000E1E5E /* Main */,
+				FA3255421DEED30D006E15B4 /* Detail */,
 				FAB0A1A31D59AE7900184D8C /* Main.storyboard */,
 				FAB0A1A61D59AE7900184D8C /* Assets.xcassets */,
 				FAB0A1A81D59AE7900184D8C /* LaunchScreen.storyboard */,
@@ -426,6 +439,7 @@
 				FAB0A1D81D59B24200184D8C /* GoddessViewController.m in Sources */,
 				FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */,
 				FAB0A1D51D59B22000184D8C /* AmuseViewController.m in Sources */,
+				FA3255451DEED38A006E15B4 /* LiveRoomViewController.m in Sources */,
 				FAB0A19C1D59AE7900184D8C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
