@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EC7A80DDE5902B9F1F6BE5B /* libPods-pandaTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D6DD427EC9095DFEA6C7D2 /* libPods-pandaTV.a */; };
+		2D813C8CE8BEB40B7FFFFD6C /* libPods-pandaTVTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AECCC59D04068D8AAD0AD660 /* libPods-pandaTVTests.a */; };
+		5F8CE6EA5701F73DD72CBAD4 /* libPods-pandaTVUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BECD2E35E2E59A5C43BEF8D /* libPods-pandaTVUITests.a */; };
 		FA3255451DEED38A006E15B4 /* LiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */; };
 		FA41ADFA1D6AEFC2000E1E5E /* FristPageHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */; };
 		FA848B821DED9B0C007E9F8C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B811DED9B0C007E9F8C /* libz.tbd */; };
@@ -55,6 +58,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0945472BAD9F5010E66A3678 /* Pods-pandaTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTV/Pods-pandaTV.release.xcconfig"; sourceTree = "<group>"; };
+		1BECD2E35E2E59A5C43BEF8D /* libPods-pandaTVUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pandaTVUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3471880D011FE2A8817F6897 /* Pods-pandaTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTVUITests/Pods-pandaTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B144116EC86AF16760F698E /* Pods-pandaTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTVUITests/Pods-pandaTVUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6531BFCF6008D80682DBB666 /* Pods-pandaTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTV/Pods-pandaTV.debug.xcconfig"; sourceTree = "<group>"; };
+		A480267507AC115DBA09E433 /* Pods-pandaTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTVTests/Pods-pandaTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		AECCC59D04068D8AAD0AD660 /* libPods-pandaTVTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pandaTVTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D54E1CA7933EED81EE566057 /* Pods-pandaTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTVTests/Pods-pandaTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7D6DD427EC9095DFEA6C7D2 /* libPods-pandaTV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pandaTV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3255431DEED38A006E15B4 /* LiveRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveRoomViewController.h; sourceTree = "<group>"; };
 		FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRoomViewController.m; sourceTree = "<group>"; };
 		FA41ADF81D6AEFC2000E1E5E /* FristPageHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristPageHeadView.h; sourceTree = "<group>"; };
@@ -119,6 +131,7 @@
 				FA848B841DED9B1C007E9F8C /* libbz2.tbd in Frameworks */,
 				FA848B821DED9B0C007E9F8C /* libz.tbd in Frameworks */,
 				FA848B9E1DED9DF7007E9F8C /* IJKMediaFramework.framework in Frameworks */,
+				1EC7A80DDE5902B9F1F6BE5B /* libPods-pandaTV.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D813C8CE8BEB40B7FFFFD6C /* libPods-pandaTVTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,12 +147,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F8CE6EA5701F73DD72CBAD4 /* libPods-pandaTVUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E934899A2F1E3DBE450A53F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6531BFCF6008D80682DBB666 /* Pods-pandaTV.debug.xcconfig */,
+				0945472BAD9F5010E66A3678 /* Pods-pandaTV.release.xcconfig */,
+				D54E1CA7933EED81EE566057 /* Pods-pandaTVTests.debug.xcconfig */,
+				A480267507AC115DBA09E433 /* Pods-pandaTVTests.release.xcconfig */,
+				3471880D011FE2A8817F6897 /* Pods-pandaTVUITests.debug.xcconfig */,
+				3B144116EC86AF16760F698E /* Pods-pandaTVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FA3255421DEED30D006E15B4 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +256,9 @@
 				FA848B851DED9B27007E9F8C /* AudioToolbox.framework */,
 				FA848B831DED9B1C007E9F8C /* libbz2.tbd */,
 				FA848B811DED9B0C007E9F8C /* libz.tbd */,
+				F7D6DD427EC9095DFEA6C7D2 /* libPods-pandaTV.a */,
+				AECCC59D04068D8AAD0AD660 /* libPods-pandaTVTests.a */,
+				1BECD2E35E2E59A5C43BEF8D /* libPods-pandaTVUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -240,6 +271,7 @@
 				FAB0A1BE1D59AE7900184D8C /* pandaTVUITests */,
 				FAB0A1981D59AE7900184D8C /* Products */,
 				FA848B7E1DED9A4E007E9F8C /* Frameworks */,
+				E934899A2F1E3DBE450A53F2 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -307,9 +339,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB0A1C41D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTV" */;
 			buildPhases = (
+				B3B6867D11F82D7624FBC6FA /* [CP] Check Pods Manifest.lock */,
 				FAB0A1931D59AE7900184D8C /* Sources */,
 				FAB0A1941D59AE7900184D8C /* Frameworks */,
 				FAB0A1951D59AE7900184D8C /* Resources */,
+				B6794C1BDB983E8046E633E8 /* [CP] Embed Pods Frameworks */,
+				226B9D610233967B8D9D25A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -324,9 +359,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB0A1C71D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTVTests" */;
 			buildPhases = (
+				F9B525A0F41110713D404C9F /* [CP] Check Pods Manifest.lock */,
 				FAB0A1AC1D59AE7900184D8C /* Sources */,
 				FAB0A1AD1D59AE7900184D8C /* Frameworks */,
 				FAB0A1AE1D59AE7900184D8C /* Resources */,
+				86C67B8228E478EF22C79D91 /* [CP] Embed Pods Frameworks */,
+				D25D8BEBE17E332CB76BA255 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -342,9 +380,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAB0A1CA1D59AE7900184D8C /* Build configuration list for PBXNativeTarget "pandaTVUITests" */;
 			buildPhases = (
+				FEB0098516457E342E2894CB /* [CP] Check Pods Manifest.lock */,
 				FAB0A1B71D59AE7900184D8C /* Sources */,
 				FAB0A1B81D59AE7900184D8C /* Frameworks */,
 				FAB0A1B91D59AE7900184D8C /* Resources */,
+				A21ECF40A77BD6BDA86E5826 /* [CP] Embed Pods Frameworks */,
+				167DA0D87C6B790114CC0FCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -426,6 +467,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		167DA0D87C6B790114CC0FCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pandaTVUITests/Pods-pandaTVUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		226B9D610233967B8D9D25A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pandaTV/Pods-pandaTV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86C67B8228E478EF22C79D91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pandaTVTests/Pods-pandaTVTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21ECF40A77BD6BDA86E5826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pandaTVUITests/Pods-pandaTVUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B6867D11F82D7624FBC6FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6794C1BDB983E8046E633E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pandaTV/Pods-pandaTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D25D8BEBE17E332CB76BA255 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pandaTVTests/Pods-pandaTVTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B525A0F41110713D404C9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FEB0098516457E342E2894CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAB0A1931D59AE7900184D8C /* Sources */ = {
@@ -581,6 +760,7 @@
 		};
 		FAB0A1C51D59AE7900184D8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6531BFCF6008D80682DBB666 /* Pods-pandaTV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -607,6 +787,7 @@
 		};
 		FAB0A1C61D59AE7900184D8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0945472BAD9F5010E66A3678 /* Pods-pandaTV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -633,6 +814,7 @@
 		};
 		FAB0A1C81D59AE7900184D8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54E1CA7933EED81EE566057 /* Pods-pandaTVTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = pandaTVTests/Info.plist;
@@ -645,6 +827,7 @@
 		};
 		FAB0A1C91D59AE7900184D8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A480267507AC115DBA09E433 /* Pods-pandaTVTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = pandaTVTests/Info.plist;
@@ -657,6 +840,7 @@
 		};
 		FAB0A1CB1D59AE7900184D8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3471880D011FE2A8817F6897 /* Pods-pandaTVUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = pandaTVUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -668,6 +852,7 @@
 		};
 		FAB0A1CC1D59AE7900184D8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B144116EC86AF16760F698E /* Pods-pandaTVUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = pandaTVUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

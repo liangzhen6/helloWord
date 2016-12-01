@@ -23,7 +23,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     LiveRoomViewController *lrVC = [[LiveRoomViewController alloc] init];
     [self.navigationController pushViewController:lrVC animated:YES];
-
+/*http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1 接口*/
 }
 
 - (void)didReceiveMemoryWarning {
