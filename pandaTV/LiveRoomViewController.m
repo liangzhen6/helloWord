@@ -9,7 +9,7 @@
 #import "LiveRoomViewController.h"
 #import <IJKMediaFramework/IJKMediaFramework.h>
 @interface LiveRoomViewController ()
-@property (atomic, strong) NSURL *url;
+
 @property (atomic, retain) id <IJKMediaPlayback> player;
 @property (weak, nonatomic) UIView *PlayerView;
 @end
@@ -31,12 +31,14 @@
     //    _player = [[IJKAVMoviePlayerController alloc] initWithContentURL:self.url];
     //http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8
     //直播视频 http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1
-    self.url = [NSURL URLWithString:@"http://pull99.a8.com/live/1480500049591329.flv"];
-    _player = [[IJKFFMoviePlayerController alloc] initWithContentURL:self.url withOptions:nil];
+    
+//    self.url = [NSURL URLWithString:@"http://pull99.a8.com/live/1480575283988559.flv"];
+    NSURL * url = [NSURL URLWithString:self.urlStr];
+    _player = [[IJKFFMoviePlayerController alloc] initWithContentURL:url withOptions:nil];
     
     UIView *playerView = [self.player view];
     
-    UIView *displayView = [[UIView alloc] initWithFrame:CGRectMake(0, 100, self.view.bounds.size.width, 180)];
+    UIView *displayView = [[UIView alloc] initWithFrame:Screen_Frame];
     self.PlayerView = displayView;
     self.PlayerView.backgroundColor = [UIColor blackColor];
     [self.view addSubview:self.PlayerView];
@@ -48,7 +50,7 @@
     [_player setScalingMode:IJKMPMovieScalingModeAspectFill];
     [self installMovieNotificationObservers];
 
-    [self initBtn];
+//    [self initBtn];
 
 }
 
@@ -66,9 +68,35 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
     if (![self.player isPlaying]) {
         [self.player prepareToPlay];
     }
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    if (self.navigationController.isNavigationBarHidden) {
+        [self.navigationController setNavigationBarHidden:NO animated:YES];
+
+    }else{
+        [self.navigationController setNavigationBarHidden:YES animated:YES];
+    }
+
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    
+    [self removeMovieNotificationObservers];
+    
+    for (UIView *view in self.PlayerView.subviews) {
+        [view removeFromSuperview];
+        
+    }
+    [self.player stop];
+    self.player=nil;
+
 }
 
 #pragma Selector func

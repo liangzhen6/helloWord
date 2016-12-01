@@ -10,4 +10,6 @@
 
 @interface LiveRoomViewController : UIViewController
 
+@property(nonatomic,copy)NSString * urlStr;
+
 @end

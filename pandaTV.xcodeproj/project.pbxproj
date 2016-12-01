@@ -38,6 +38,10 @@
 		FAB0A1D51D59B22000184D8C /* AmuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1D41D59B22000184D8C /* AmuseViewController.m */; };
 		FAB0A1D81D59B24200184D8C /* GoddessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1D71D59B24200184D8C /* GoddessViewController.m */; };
 		FAB0A1DB1D59B2E900184D8C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A1DA1D59B2E900184D8C /* MainViewController.m */; };
+		FAB25BF31DF0067600A1E3C9 /* DownLoadData.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB25BF21DF0067600A1E3C9 /* DownLoadData.m */; };
+		FAB25BF71DF007F300A1E3C9 /* ListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB25BF61DF007F300A1E3C9 /* ListModel.m */; };
+		FAB25BFC1DF0163400A1E3C9 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB25BFA1DF0163400A1E3C9 /* ListTableViewCell.m */; };
+		FAB25BFD1DF0163400A1E3C9 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB25BFB1DF0163400A1E3C9 /* ListTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +114,13 @@
 		FAB0A1D71D59B24200184D8C /* GoddessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoddessViewController.m; sourceTree = "<group>"; };
 		FAB0A1D91D59B2E900184D8C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		FAB0A1DA1D59B2E900184D8C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FAB25BF11DF0067600A1E3C9 /* DownLoadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownLoadData.h; sourceTree = "<group>"; };
+		FAB25BF21DF0067600A1E3C9 /* DownLoadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownLoadData.m; sourceTree = "<group>"; };
+		FAB25BF51DF007F300A1E3C9 /* ListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListModel.h; sourceTree = "<group>"; };
+		FAB25BF61DF007F300A1E3C9 /* ListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListModel.m; sourceTree = "<group>"; };
+		FAB25BF91DF0163400A1E3C9 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		FAB25BFA1DF0163400A1E3C9 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		FAB25BFB1DF0163400A1E3C9 /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +212,8 @@
 			children = (
 				FAB0A1D61D59B24200184D8C /* GoddessViewController.h */,
 				FAB0A1D71D59B24200184D8C /* GoddessViewController.m */,
+				FAB25BF41DF007D400A1E3C9 /* Model */,
+				FAB25BF81DF0130700A1E3C9 /* View */,
 			);
 			name = Goddess;
 			sourceTree = "<group>";
@@ -290,6 +303,7 @@
 			children = (
 				FAB0A19D1D59AE7900184D8C /* AppDelegate.h */,
 				FAB0A19E1D59AE7900184D8C /* AppDelegate.m */,
+				FAB25BF01DF005D500A1E3C9 /* Library */,
 				FA41ADF11D6AEA6B000E1E5E /* FirstPage */,
 				FA41ADF21D6AEA84000E1E5E /* Gime */,
 				FA41ADF51D6AEAB8000E1E5E /* Amuse */,
@@ -330,6 +344,34 @@
 				FAB0A1C11D59AE7900184D8C /* Info.plist */,
 			);
 			path = pandaTVUITests;
+			sourceTree = "<group>";
+		};
+		FAB25BF01DF005D500A1E3C9 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FAB25BF11DF0067600A1E3C9 /* DownLoadData.h */,
+				FAB25BF21DF0067600A1E3C9 /* DownLoadData.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		FAB25BF41DF007D400A1E3C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAB25BF51DF007F300A1E3C9 /* ListModel.h */,
+				FAB25BF61DF007F300A1E3C9 /* ListModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FAB25BF81DF0130700A1E3C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAB25BF91DF0163400A1E3C9 /* ListTableViewCell.h */,
+				FAB25BFA1DF0163400A1E3C9 /* ListTableViewCell.m */,
+				FAB25BFB1DF0163400A1E3C9 /* ListTableViewCell.xib */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -447,6 +489,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB0A1AA1D59AE7900184D8C /* LaunchScreen.storyboard in Resources */,
+				FAB25BFD1DF0163400A1E3C9 /* ListTableViewCell.xib in Resources */,
 				FAB0A1A71D59AE7900184D8C /* Assets.xcassets in Resources */,
 				FAB0A1A51D59AE7900184D8C /* Main.storyboard in Resources */,
 			);
@@ -613,11 +656,14 @@
 			files = (
 				FA41ADFA1D6AEFC2000E1E5E /* FristPageHeadView.m in Sources */,
 				FAB0A1CF1D59B19400184D8C /* FistPageViewController.m in Sources */,
+				FAB25BF71DF007F300A1E3C9 /* ListModel.m in Sources */,
 				FAB0A1D21D59B1F500184D8C /* GimeViewController.m in Sources */,
 				FAB0A1DB1D59B2E900184D8C /* MainViewController.m in Sources */,
 				FAB0A1D81D59B24200184D8C /* GoddessViewController.m in Sources */,
 				FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */,
 				FAB0A1D51D59B22000184D8C /* AmuseViewController.m in Sources */,
+				FAB25BF31DF0067600A1E3C9 /* DownLoadData.m in Sources */,
+				FAB25BFC1DF0163400A1E3C9 /* ListTableViewCell.m in Sources */,
 				FA3255451DEED38A006E15B4 /* LiveRoomViewController.m in Sources */,
 				FAB0A19C1D59AE7900184D8C /* main.m in Sources */,
 			);

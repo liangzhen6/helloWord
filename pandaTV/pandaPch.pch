@@ -17,6 +17,8 @@
 #define Screen_Height    [[UIScreen mainScreen] bounds].size.height
 
 #import <UIImageView+WebCache.h>
+#import <SDWebImage/SDImageCache.h>
+#import <UIImage+GIF.h>
 
 
 // Include any system framework and library headers here that should be included in all compilation units.
