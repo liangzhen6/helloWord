@@ -26,6 +26,9 @@
 		FA848B981DED9B7D007E9F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B971DED9B7D007E9F8C /* UIKit.framework */; };
 		FA848B9A1DED9B84007E9F8C /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B991DED9B84007E9F8C /* VideoToolbox.framework */; };
 		FA848B9E1DED9DF7007E9F8C /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B9D1DED9DF7007E9F8C /* IJKMediaFramework.framework */; };
+		FAA01BE91DF1703000270BCA /* BarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA01BE81DF1703000270BCA /* BarrageView.m */; };
+		FAA01BEC1DF1724A00270BCA /* BarrageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA01BEB1DF1724A00270BCA /* BarrageModel.m */; };
+		FAA01BF51DF17DC900270BCA /* UILabel+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA01BF41DF17DC900270BCA /* UILabel+Category.m */; };
 		FAB0A19C1D59AE7900184D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A19B1D59AE7900184D8C /* main.m */; };
 		FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB0A19E1D59AE7900184D8C /* AppDelegate.m */; };
 		FAB0A1A51D59AE7900184D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB0A1A31D59AE7900184D8C /* Main.storyboard */; };
@@ -89,6 +92,12 @@
 		FA848B971DED9B7D007E9F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA848B991DED9B84007E9F8C /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		FA848B9D1DED9DF7007E9F8C /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		FAA01BE71DF1703000270BCA /* BarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageView.h; sourceTree = "<group>"; };
+		FAA01BE81DF1703000270BCA /* BarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageView.m; sourceTree = "<group>"; };
+		FAA01BEA1DF1724A00270BCA /* BarrageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageModel.h; sourceTree = "<group>"; };
+		FAA01BEB1DF1724A00270BCA /* BarrageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageModel.m; sourceTree = "<group>"; };
+		FAA01BF31DF17DC900270BCA /* UILabel+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Category.h"; sourceTree = "<group>"; };
+		FAA01BF41DF17DC900270BCA /* UILabel+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Category.m"; sourceTree = "<group>"; };
 		FAA0643B1D6D46F4004D85AF /* pandaPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pandaPch.pch; sourceTree = "<group>"; };
 		FAB0A1971D59AE7900184D8C /* pandaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pandaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB0A19B1D59AE7900184D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -183,6 +192,7 @@
 			children = (
 				FA3255431DEED38A006E15B4 /* LiveRoomViewController.h */,
 				FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */,
+				FAA01BE21DF16C6600270BCA /* DanMuView */,
 			);
 			name = Detail;
 			sourceTree = "<group>";
@@ -276,6 +286,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		FAA01BE21DF16C6600270BCA /* DanMuView */ = {
+			isa = PBXGroup;
+			children = (
+				FAA01BE71DF1703000270BCA /* BarrageView.h */,
+				FAA01BE81DF1703000270BCA /* BarrageView.m */,
+				FAA01BEA1DF1724A00270BCA /* BarrageModel.h */,
+				FAA01BEB1DF1724A00270BCA /* BarrageModel.m */,
+			);
+			name = DanMuView;
+			sourceTree = "<group>";
+		};
 		FAB0A18E1D59AE7900184D8C = {
 			isa = PBXGroup;
 			children = (
@@ -351,6 +372,8 @@
 			children = (
 				FAB25BF11DF0067600A1E3C9 /* DownLoadData.h */,
 				FAB25BF21DF0067600A1E3C9 /* DownLoadData.m */,
+				FAA01BF31DF17DC900270BCA /* UILabel+Category.h */,
+				FAA01BF41DF17DC900270BCA /* UILabel+Category.m */,
 			);
 			name = Library;
 			sourceTree = "<group>";
@@ -660,12 +683,15 @@
 				FAB0A1D21D59B1F500184D8C /* GimeViewController.m in Sources */,
 				FAB0A1DB1D59B2E900184D8C /* MainViewController.m in Sources */,
 				FAB0A1D81D59B24200184D8C /* GoddessViewController.m in Sources */,
+				FAA01BEC1DF1724A00270BCA /* BarrageModel.m in Sources */,
 				FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */,
 				FAB0A1D51D59B22000184D8C /* AmuseViewController.m in Sources */,
 				FAB25BF31DF0067600A1E3C9 /* DownLoadData.m in Sources */,
 				FAB25BFC1DF0163400A1E3C9 /* ListTableViewCell.m in Sources */,
 				FA3255451DEED38A006E15B4 /* LiveRoomViewController.m in Sources */,
 				FAB0A19C1D59AE7900184D8C /* main.m in Sources */,
+				FAA01BF51DF17DC900270BCA /* UILabel+Category.m in Sources */,
+				FAA01BE91DF1703000270BCA /* BarrageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

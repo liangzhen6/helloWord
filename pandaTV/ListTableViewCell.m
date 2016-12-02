@@ -8,6 +8,7 @@
 
 #import "ListTableViewCell.h"
 #import "ListModel.h"
+#import "UILabel+Category.h"
 @implementation ListTableViewCell
 
 + (id)listTableViewCellWithTableView:(UITableView *)tableView{
