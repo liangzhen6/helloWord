@@ -8,10 +8,12 @@
 
 #import "LiveRoomViewController.h"
 #import <IJKMediaFramework/IJKMediaFramework.h>
+#import "BarrageScrollView.h"
 @interface LiveRoomViewController ()
 
 @property (atomic, retain) id <IJKMediaPlayback> player;
 @property (weak, nonatomic) UIView *PlayerView;
+@property(nonatomic,strong)UIScrollView * scrollView;
 @end
 
 @implementation LiveRoomViewController
@@ -20,6 +22,8 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self initLiveRoom];
+    [self initScrollView];
+    
     // Do any additional setup after loading the view.
 }
 
@@ -52,6 +56,12 @@
 
 //    [self initBtn];
 
+}
+
+- (void)initScrollView{
+
+    BarrageScrollView * bsView = [[BarrageScrollView alloc] initWithFrame:Screen_Frame];
+    [self.view addSubview:bsView];
 }
 
 - (void)initBtn{
@@ -94,7 +104,9 @@
         [view removeFromSuperview];
         
     }
+    [self.PlayerView removeFromSuperview];
     [self.player stop];
+    self.PlayerView=nil;
     self.player=nil;
 
 }

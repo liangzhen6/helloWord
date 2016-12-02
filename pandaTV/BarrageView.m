@@ -7,7 +7,8 @@
 //
 
 #import "BarrageView.h"
-
+#import "BarrageModel.h"
+#import "BarrageTableViewCell.h"
 @interface BarrageView ()<UITableViewDelegate,UITableViewDataSource>
 @property(nonatomic,strong)UITableView * tableView;
 @property(nonatomic,strong)NSMutableArray * dataSource;
@@ -32,11 +33,24 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self addSubview:self.tableView];
+    self.tableView.backgroundColor = [UIColor clearColor];
+    self.tableView.showsVerticalScrollIndicator = NO;
+
     
     //滚动显示最后一条数据
 //    [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
-    [self.tableView scrollToNearestSelectedRowAtScrollPosition:UITableViewScrollPositionBottom animated:YES];
+//    [self.tableView scrollToNearestSelectedRowAtScrollPosition:UITableViewScrollPositionBottom animated:YES];
     
+}
+
+
+- (void)setAddModel:(BarrageModel *)addModel{
+    _addModel = addModel;
+    [self.dataSource addObject:addModel];
+    [self.tableView reloadData];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:self.dataSource.count-1 inSection:0];
+    [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+
 }
 
 #pragma mark tableView delegate
@@ -44,9 +58,19 @@
     return self.dataSource.count;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    BarrageModel * model = self.dataSource[indexPath.row];
+    return model.rowHight+5;
+}
 
 
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    BarrageTableViewCell * cell = [BarrageTableViewCell barrageTableViewCellWithTableView:tableView];
+    cell.model = self.dataSource[indexPath.row];
+    
+    return cell;
 
+}
 
 
 - (NSMutableArray *)dataSource{

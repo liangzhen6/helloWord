@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1EC7A80DDE5902B9F1F6BE5B /* libPods-pandaTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D6DD427EC9095DFEA6C7D2 /* libPods-pandaTV.a */; };
 		2D813C8CE8BEB40B7FFFFD6C /* libPods-pandaTVTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AECCC59D04068D8AAD0AD660 /* libPods-pandaTVTests.a */; };
+		3255E19D1DF1A07200FCA2D7 /* BarrageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3255E19B1DF1A07200FCA2D7 /* BarrageTableViewCell.m */; };
+		3255E19E1DF1A07200FCA2D7 /* BarrageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3255E19C1DF1A07200FCA2D7 /* BarrageTableViewCell.xib */; };
+		3255E1A01DF1A71100FCA2D7 /* BarrageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3255E19F1DF1A71100FCA2D7 /* BarrageList.plist */; };
+		3255E1A31DF1A9A700FCA2D7 /* BarrageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3255E1A21DF1A9A700FCA2D7 /* BarrageScrollView.m */; };
 		5F8CE6EA5701F73DD72CBAD4 /* libPods-pandaTVUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BECD2E35E2E59A5C43BEF8D /* libPods-pandaTVUITests.a */; };
 		FA3255451DEED38A006E15B4 /* LiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */; };
 		FA41ADFA1D6AEFC2000E1E5E /* FristPageHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */; };
@@ -67,6 +71,12 @@
 /* Begin PBXFileReference section */
 		0945472BAD9F5010E66A3678 /* Pods-pandaTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTV/Pods-pandaTV.release.xcconfig"; sourceTree = "<group>"; };
 		1BECD2E35E2E59A5C43BEF8D /* libPods-pandaTVUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pandaTVUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3255E19A1DF1A07200FCA2D7 /* BarrageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageTableViewCell.h; sourceTree = "<group>"; };
+		3255E19B1DF1A07200FCA2D7 /* BarrageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageTableViewCell.m; sourceTree = "<group>"; };
+		3255E19C1DF1A07200FCA2D7 /* BarrageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BarrageTableViewCell.xib; sourceTree = "<group>"; };
+		3255E19F1DF1A71100FCA2D7 /* BarrageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BarrageList.plist; sourceTree = "<group>"; };
+		3255E1A11DF1A9A700FCA2D7 /* BarrageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageScrollView.h; sourceTree = "<group>"; };
+		3255E1A21DF1A9A700FCA2D7 /* BarrageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageScrollView.m; sourceTree = "<group>"; };
 		3471880D011FE2A8817F6897 /* Pods-pandaTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTVUITests/Pods-pandaTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B144116EC86AF16760F698E /* Pods-pandaTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTVUITests/Pods-pandaTVUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6531BFCF6008D80682DBB666 /* Pods-pandaTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pandaTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pandaTV/Pods-pandaTV.debug.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +202,8 @@
 			children = (
 				FA3255431DEED38A006E15B4 /* LiveRoomViewController.h */,
 				FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */,
+				3255E1A11DF1A9A700FCA2D7 /* BarrageScrollView.h */,
+				3255E1A21DF1A9A700FCA2D7 /* BarrageScrollView.m */,
 				FAA01BE21DF16C6600270BCA /* DanMuView */,
 			);
 			name = Detail;
@@ -293,6 +305,10 @@
 				FAA01BE81DF1703000270BCA /* BarrageView.m */,
 				FAA01BEA1DF1724A00270BCA /* BarrageModel.h */,
 				FAA01BEB1DF1724A00270BCA /* BarrageModel.m */,
+				3255E19A1DF1A07200FCA2D7 /* BarrageTableViewCell.h */,
+				3255E19B1DF1A07200FCA2D7 /* BarrageTableViewCell.m */,
+				3255E19C1DF1A07200FCA2D7 /* BarrageTableViewCell.xib */,
+				3255E19F1DF1A71100FCA2D7 /* BarrageList.plist */,
 			);
 			name = DanMuView;
 			sourceTree = "<group>";
@@ -515,6 +531,8 @@
 				FAB25BFD1DF0163400A1E3C9 /* ListTableViewCell.xib in Resources */,
 				FAB0A1A71D59AE7900184D8C /* Assets.xcassets in Resources */,
 				FAB0A1A51D59AE7900184D8C /* Main.storyboard in Resources */,
+				3255E19E1DF1A07200FCA2D7 /* BarrageTableViewCell.xib in Resources */,
+				3255E1A01DF1A71100FCA2D7 /* BarrageList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,12 +703,14 @@
 				FAB0A1D81D59B24200184D8C /* GoddessViewController.m in Sources */,
 				FAA01BEC1DF1724A00270BCA /* BarrageModel.m in Sources */,
 				FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */,
+				3255E19D1DF1A07200FCA2D7 /* BarrageTableViewCell.m in Sources */,
 				FAB0A1D51D59B22000184D8C /* AmuseViewController.m in Sources */,
 				FAB25BF31DF0067600A1E3C9 /* DownLoadData.m in Sources */,
 				FAB25BFC1DF0163400A1E3C9 /* ListTableViewCell.m in Sources */,
 				FA3255451DEED38A006E15B4 /* LiveRoomViewController.m in Sources */,
 				FAB0A19C1D59AE7900184D8C /* main.m in Sources */,
 				FAA01BF51DF17DC900270BCA /* UILabel+Category.m in Sources */,
+				3255E1A31DF1A9A700FCA2D7 /* BarrageScrollView.m in Sources */,
 				FAA01BE91DF1703000270BCA /* BarrageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

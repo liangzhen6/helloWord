@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class BarrageModel;
 @interface BarrageView : UIView
+
+@property(nonatomic,strong)BarrageModel * addModel;
 
 @end
