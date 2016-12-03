@@ -23,7 +23,8 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self initLiveRoom];
     [self initScrollView];
-    
+    [self initBackBtn];
+
     // Do any additional setup after loading the view.
 }
 
@@ -54,7 +55,6 @@
     [_player setScalingMode:IJKMPMovieScalingModeAspectFill];
     [self installMovieNotificationObservers];
 
-//    [self initBtn];
 
 }
 
@@ -64,14 +64,13 @@
     [self.view addSubview:bsView];
 }
 
-- (void)initBtn{
+- (void)initBackBtn{
     
-    CGFloat W = self.view.bounds.size.width;
-    CGFloat H = self.view.bounds.size.height;
+    CGFloat X = self.view.bounds.size.width-60;
+    CGFloat Y = self.view.bounds.size.height-45;
     
-    UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(50, H-200, W-100, 50)];
-    btn.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.75];
-    [btn setTitle:@"暂停/播放" forState:UIControlStateNormal];
+    UIButton * btn = [[UIButton alloc] initWithFrame:CGRectMake(X, Y, 40, 40)];
+    [btn setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(play_btn:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
@@ -86,15 +85,15 @@
     }
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    if (self.navigationController.isNavigationBarHidden) {
-        [self.navigationController setNavigationBarHidden:NO animated:YES];
-
-    }else{
-        [self.navigationController setNavigationBarHidden:YES animated:YES];
-    }
-
-}
+//- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    if (self.navigationController.isNavigationBarHidden) {
+//        [self.navigationController setNavigationBarHidden:NO animated:YES];
+//
+//    }else{
+//        [self.navigationController setNavigationBarHidden:YES animated:YES];
+//    }
+//
+//}
 - (void)viewWillDisappear:(BOOL)animated{
     [super viewWillDisappear:animated];
     
@@ -225,11 +224,14 @@
 
 
 - (void)play_btn:(id)sender {
-    if (![self.player isPlaying]) {
-        [self.player play];
-    }else{
-        [self.player pause];
-    }
+//    if (![self.player isPlaying]) {
+//        [self.player play];
+//    }else{
+//        [self.player pause];
+//    }
+    
+    
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 
