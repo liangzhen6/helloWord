@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LFLiveKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-pandaTV.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,7 +37,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>11A1F40CD05178ED6AA2E47366A76DB0</key>
+		<key>24D55B093D4D25E348B6408D4B02BDB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45675A0F46DF8040F9FA615F14256FDE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,7 +57,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D193CAEDDB16DB22061E136F5D539188</key>
+		<key>EF7E222852853E04BE44880E420C9E41</key>
 		<dict>
 			<key>primary</key>
 			<true/>

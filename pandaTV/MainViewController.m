@@ -7,7 +7,7 @@
 //
 
 #import "MainViewController.h"
-
+#import "LiveRoomViewController.h"
 @interface MainViewController ()
 
 @end
@@ -18,7 +18,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    LiveRoomViewController *lrVC = [[LiveRoomViewController alloc] init];
+    lrVC.urlStr = PushSever;
+    self.hidesBottomBarWhenPushed=YES;
+    [self.navigationController pushViewController:lrVC animated:YES];
+    self.hidesBottomBarWhenPushed=NO;
 
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -16,6 +16,9 @@
 		5F8CE6EA5701F73DD72CBAD4 /* libPods-pandaTVUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BECD2E35E2E59A5C43BEF8D /* libPods-pandaTVUITests.a */; };
 		FA3255451DEED38A006E15B4 /* LiveRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */; };
 		FA41ADFA1D6AEFC2000E1E5E /* FristPageHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */; };
+		FA75E2F61E13C60F00F86143 /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75E2F11E13C60F00F86143 /* LFLivePreview.m */; };
+		FA75E2F71E13C60F00F86143 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75E2F31E13C60F00F86143 /* UIControl+YYAdd.m */; };
+		FA75E2F81E13C60F00F86143 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = FA75E2F51E13C60F00F86143 /* UIView+YYAdd.m */; };
 		FA848B821DED9B0C007E9F8C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B811DED9B0C007E9F8C /* libz.tbd */; };
 		FA848B841DED9B1C007E9F8C /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B831DED9B1C007E9F8C /* libbz2.tbd */; };
 		FA848B861DED9B27007E9F8C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA848B851DED9B27007E9F8C /* AudioToolbox.framework */; };
@@ -88,6 +91,12 @@
 		FA3255441DEED38A006E15B4 /* LiveRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveRoomViewController.m; sourceTree = "<group>"; };
 		FA41ADF81D6AEFC2000E1E5E /* FristPageHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristPageHeadView.h; sourceTree = "<group>"; };
 		FA41ADF91D6AEFC2000E1E5E /* FristPageHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristPageHeadView.m; sourceTree = "<group>"; };
+		FA75E2F01E13C60F00F86143 /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
+		FA75E2F11E13C60F00F86143 /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
+		FA75E2F21E13C60F00F86143 /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
+		FA75E2F31E13C60F00F86143 /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
+		FA75E2F41E13C60F00F86143 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		FA75E2F51E13C60F00F86143 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
 		FA848B811DED9B0C007E9F8C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FA848B831DED9B1C007E9F8C /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		FA848B851DED9B27007E9F8C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -386,6 +395,12 @@
 		FAB25BF01DF005D500A1E3C9 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				FA75E2F01E13C60F00F86143 /* LFLivePreview.h */,
+				FA75E2F11E13C60F00F86143 /* LFLivePreview.m */,
+				FA75E2F21E13C60F00F86143 /* UIControl+YYAdd.h */,
+				FA75E2F31E13C60F00F86143 /* UIControl+YYAdd.m */,
+				FA75E2F41E13C60F00F86143 /* UIView+YYAdd.h */,
+				FA75E2F51E13C60F00F86143 /* UIView+YYAdd.m */,
 				FAB25BF11DF0067600A1E3C9 /* DownLoadData.h */,
 				FAB25BF21DF0067600A1E3C9 /* DownLoadData.m */,
 				FAA01BF31DF17DC900270BCA /* UILabel+Category.h */,
@@ -701,10 +716,13 @@
 				FAB0A1D21D59B1F500184D8C /* GimeViewController.m in Sources */,
 				FAB0A1DB1D59B2E900184D8C /* MainViewController.m in Sources */,
 				FAB0A1D81D59B24200184D8C /* GoddessViewController.m in Sources */,
+				FA75E2F61E13C60F00F86143 /* LFLivePreview.m in Sources */,
 				FAA01BEC1DF1724A00270BCA /* BarrageModel.m in Sources */,
+				FA75E2F81E13C60F00F86143 /* UIView+YYAdd.m in Sources */,
 				FAB0A19F1D59AE7900184D8C /* AppDelegate.m in Sources */,
 				3255E19D1DF1A07200FCA2D7 /* BarrageTableViewCell.m in Sources */,
 				FAB0A1D51D59B22000184D8C /* AmuseViewController.m in Sources */,
+				FA75E2F71E13C60F00F86143 /* UIControl+YYAdd.m in Sources */,
 				FAB25BF31DF0067600A1E3C9 /* DownLoadData.m in Sources */,
 				FAB25BFC1DF0163400A1E3C9 /* ListTableViewCell.m in Sources */,
 				FA3255451DEED38A006E15B4 /* LiveRoomViewController.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "AmuseViewController.h"
-
+#import "LFLivePreview.h"
 @interface AmuseViewController ()
 
 @end
@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.view addSubview:[[LFLivePreview alloc] initWithFrame:self.view.bounds]];
     // Do any additional setup after loading the view.
 }
 

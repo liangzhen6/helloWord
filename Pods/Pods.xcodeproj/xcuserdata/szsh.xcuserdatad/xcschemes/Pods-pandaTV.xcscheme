@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'D193CAEDDB16DB22061E136F5D539188'
+               BlueprintIdentifier = '45675A0F46DF8040F9FA615F14256FDE'
                BlueprintName = 'Pods-pandaTV'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-pandaTV.a'>
