@@ -38,6 +38,7 @@
     //直播视频 http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1
     
 //    self.url = [NSURL URLWithString:@"http://pull99.a8.com/live/1480575283988559.flv"];
+//    NSURL * url = [NSURL URLWithString:@"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"];
     NSURL * url = [NSURL URLWithString:self.urlStr];
     _player = [[IJKFFMoviePlayerController alloc] initWithContentURL:url withOptions:nil];
     

@@ -27,8 +27,10 @@
 
 
 - (void)requestData{
-
-    [DownLoadData requestWithUrlString:@"http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1" parameters:nil type:HttpRequestTypeGet success:^(id success) {
+// 71167152 133825214
+   // http://120.55.238.158/api/live/infos?&id=1477053764829586%2C1477054273907899%2C1477054400238760%2C1477053485735491%2C1477052473780277&multiaddr=1
+     //http://116.211.167.106/api/live/aggregation?uid=133825214&interest=1
+    [DownLoadData requestWithUrlString:@"http://120.55.238.158/api/live/infos?&id=1477053764829586%2C1477054273907899%2C1477054400238760%2C1477053485735491%2C1477052473780277&multiaddr=1" parameters:nil type:HttpRequestTypeGet success:^(id success) {
         NSLog(@"%@-----%@",success,success[@"lives"]);
         if ([success[@"dm_error"] intValue]==0) {
             //成功

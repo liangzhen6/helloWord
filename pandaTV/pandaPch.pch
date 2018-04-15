@@ -20,8 +20,10 @@
 #import <SDWebImage/SDImageCache.h>
 #import <UIImage+GIF.h>
 
-#define PushSever @"rtmp://192.168.1.103:1935/rtmplive/room"
-
+//#define PushSever @"rtmp://192.168.1.103:1935/rtmplive/room"
+//#define PushSever @"rtmp://localhost:1935/zbcs/room"
+#warning 注意把ip地址换成自己电脑的ip地址
+#define PushSever @"rtmp://192.168.1.3:1935/rtmplive/room"
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
